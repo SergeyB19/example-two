@@ -113,5 +113,27 @@ public class Main {
     }
 }
 
+int age = 25;
+        int salary = 60_000;
+        int wantedSum = 330_000;
+        //базовая ставка
+        int baseRate = 10;
+        // срок кредитования
+        int loanTerm =12;
+        // максимальный ежемесячный платеж
+        int MaxMonthlyPayment = (salary/100)*50;
+        if (age<23) {
+        int i = wantedSum + 1;
+        }
 
+        else if (age<=30){
+        int i = (int) (wantedSum + 0.5);
+        } else if (salary>80_000) {
+        int i = (int) (wantedSum - 0.7);
+
+        }
+        System.out.println("Максимальный платеж при ЗП" + salary +  "равен" + MaxMonthlyPayment +"рублей. Платеж по кредиту+ " + i +"рублей. Одобрено/отказано.");
+
+        }
+        }
 
